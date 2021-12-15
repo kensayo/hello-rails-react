@@ -2,7 +2,7 @@
 
 # Greetings!
 
->  Simple Rails + React app where we display greetings messages using a API
+>  Simple Rails + React app where we display greetings messages using a API created on Rails and frontend using React
 
 ## Main Page
 
@@ -47,7 +47,7 @@ rails db:seed
 rails server
 ```
 - Then just go to [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
-
+- 
 
 ## 👤 Kenny Ortega
 
