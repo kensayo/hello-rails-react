@@ -5,6 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-# rubocop:disable Lint/Syntax
-messages = Message.create([{ message: 'Hello World!' }, { message: 'Welcome my friend to React/Rails/Redux...', { message: 'Are you still here?' }, { message: 'Dont look me like that..' }, { message: 'Why are you here?' } }])
-# rubocop:enable Lint/Syntax
+messages = Message.create([{ message: 'Hello World!' }, { message: 'Welcome my friend to React/Rails/Redux...' },
+                           { message: 'Are you still here?' }, { message: 'Dont look me like that..' }, { message: 'Why are you here?' }])

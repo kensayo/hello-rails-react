@@ -37,6 +37,8 @@ To get a local copy up and running follow these simple example steps.
 ```
 // Install dependecies
 bundle install
+// Install Node JS dependecies
+npm install
 // Create the database
 rails db:create
 // Migrate the tables
@@ -46,8 +48,16 @@ rails db:seed
 // Start the server
 rails server
 ```
-- Then just go to [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
-- 
+
+## Usage
+
+- Just go to [http://localhost:3000/](http://localhost:3000/)
+
+## API Endpoint
+
+
+- [http://localhost:3000/v1/message](http://localhost:3000/v1/message)
+
 
 ## 👤 Kenny Ortega
 
