@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  namespace :v1, defaults: { format: 'json' } do
+    get 'message', to: 'messages#index'
+  end
+  get '*page', to: 'statics#index', constraints: lambda { |req|
+    !req.xhr? && req.format.html?
+  }
+  root 'statics#index'
 end
