@@ -8,7 +8,7 @@
 
 ![Screenshot](./screenshot.png)
 
-### Built using
+### 🛠️ Built using
     - Ruby
     - Ruby On Rails
     - Rubocop
@@ -19,18 +19,18 @@
     - React
     - Redux
 
-## Getting Started
+## 🏁  Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-## Prerequisites
+## ✅ Prerequisites 
 
 * Make sure that **Ruby Environment** is installed in your computer (try to run _ruby_ from your prompt), if not you can install it from [here.](https://www.ruby-lang.org/en/downloads/)
 
 * [Download](https://github.com/kensayo/hello-rails-react/archive/refs/heads/development.zip) and unzip **or** [clone this repository](https://docs.github.com/es/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 
-## Setup
+## ⚙️ Setup
 
 - After clone or download the repository move to the root of the proyect
 - Open a terminal there and run the next commands
@@ -49,11 +49,11 @@ rails db:seed
 rails server
 ```
 
-## Usage
+## 💡 Usage
 
 - Just go to [http://localhost:3000/](http://localhost:3000/)
 
-## API Endpoint
+## 🌐 API Endpoint
 
 
 - [http://localhost:3000/v1/message](http://localhost:3000/v1/message)

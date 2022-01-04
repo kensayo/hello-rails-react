@@ -39,7 +39,7 @@ class Greeting extends React.Component{
         <div className="message">
           <p>{messages}</p>
         </div>
-        <button className="btn" onClick={() => this.props.getMessages()} >Click me!</button>
+        <button className="btn" onClick={() => this.props.getMessages()} >Click here!</button>
        
       </div>
     );
