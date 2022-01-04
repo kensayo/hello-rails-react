@@ -1,70 +1,24 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# README
 
-# Greetings!
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
->  Simple Rails + React app where we display greetings messages using a API created on Rails and frontend using React
+Things you may want to cover:
 
-## Main Page
+* Ruby version
 
-![Screenshot](./screenshot.png)
+* System dependencies
 
-### Built using
-    - Ruby
-    - Ruby On Rails
-    - Rubocop
-    - PostgreSQL
-    - Github
-    - RubyMine
-    - CSS3
-    - React
-    - Redux
+* Configuration
 
-## Getting Started
+* Database creation
 
-To get a local copy up and running follow these simple example steps.
+* Database initialization
 
-## Prerequisites
+* How to run the test suite
 
-* Make sure that **Ruby Environment** is installed in your computer (try to run _ruby_ from your prompt), if not you can install it from [here.](https://www.ruby-lang.org/en/downloads/)
+* Services (job queues, cache servers, search engines, etc.)
 
-* [Download](https://github.com/kensayo/hello-rails-react/archive/refs/heads/development.zip) and unzip **or** [clone this repository](https://docs.github.com/es/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+* Deployment instructions
 
-
-## Setup
-
-- After clone or download the repository move to the root of the proyect
-- Open a terminal there and run the next commands
-```
-// Install dependecies
-bundle install
-// Install Node JS dependecies
-npm install
-// Create the database
-rails db:create
-// Migrate the tables
-rails db:migrate
-// Populate the database
-rails db:seed
-// Start the server
-rails server
-```
-
-## Usage
-
-- Just go to [http://localhost:3000/](http://localhost:3000/)
-
-## API Endpoint
-
-
-- [http://localhost:3000/v1/message](http://localhost:3000/v1/message)
-
-
-## 👤 Kenny Ortega
-
-- GitHub: [kensayo](https://github.com/kensayo)
-- Twitter: [@kensayo](https://twitter.com/kensayo)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kennyortega/)
-
-
-## Contributions and issues are welcome!
-
+* ...
