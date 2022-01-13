@@ -6,13 +6,11 @@ const GET_MESSAGES_REQUEST = 'GET_MESSAGES_REQUEST';
 const GET_MESSAGES_SUCCESS = 'GET_MESSAGES_SUCCESS';
 
 function getMessages() {
-  console.log("Action!");
   return async dispatch => {
     dispatch({ type: GET_MESSAGES_REQUEST });
     try {
       const response = await fetch(`http://localhost:3000/v1/message`);
       const json = await response.json();
-      console.log("JSON: " + json);
       return dispatch(getMessagesSuccess(json));
     } catch (error) {
       return console.log(error);
@@ -31,7 +29,6 @@ class Greeting extends React.Component{
   render() {
 
     const { messages } = this.props;
-    console.log(messages);
 
     return (
       <div className="container">
